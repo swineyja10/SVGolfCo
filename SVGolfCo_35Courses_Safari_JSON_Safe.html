@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SVGolfCo Valley Map – FINAL JSON SAFE</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    body { margin: 0; font-family: sans-serif; }
+    #searchBar {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1000;
+      background: white;
+      padding: 8px;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    #map { height: 100vh; }
+  </style>
+</head>
+<body>
+  <div id="searchBar">
+    <input type="text" id="searchInput" placeholder="Search course name..." />
+  </div>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    var map = L.map('map').setView([38.5, -78.7], 8);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    var allMarkers = [];
+    var typeColors = {
+      'Public Course': 'green', 'Private Course': 'red', 'Resort Course': 'orange', 'Semi-Private Course': 'blue', 'Municipal Course': 'purple'
+    };
+    var layerGroups = {};
+    layerGroups['Driving Range'] = L.layerGroup().addTo(map);
+layerGroups['Municipal Course'] = L.layerGroup().addTo(map);
+layerGroups['Private Course'] = L.layerGroup().addTo(map);
+layerGroups['Public / Free Course'] = L.layerGroup().addTo(map);
+layerGroups['Public Course'] = L.layerGroup().addTo(map);
+layerGroups['Resort Course'] = L.layerGroup().addTo(map);
+layerGroups['Semi-Private Course'] = L.layerGroup().addTo(map);
+
+    var courseDataJSON = `[{"name": "Shenandoah Valley Golf Club", "lat": 39.0207, "lon": -78.1297, "county": "Warren", "type": "Public Course", "url": "https://www.shenandoahvalleygolfclub.com/"}, {"name": "Rock Harbor Golf Course", "lat": 39.1792, "lon": -78.1619, "county": "Frederick", "type": "Public Course", "url": "https://www.rockharborgolf.com/"}, {"name": "Blue Ridge Shadows Golf Club", "lat": 39.0012, "lon": -78.2035, "county": "Warren", "type": "Public Course", "url": "https://www.blueridgeshadows.com/"}, {"name": "Front Royal Golf Club", "lat": 38.935, "lon": -78.1845, "county": "Warren", "type": "Public Course", "url": "https://www.frontroyalgolfclub.com/"}, {"name": "Sly Fox Golf Club", "lat": 39.0916, "lon": -78.2856, "county": "Frederick", "type": "Public Course", "url": "https://slyfoxgolf.com/"}, {"name": "Winchester Country Club", "lat": 39.1799, "lon": -78.1585, "county": "Frederick", "type": "Private Course", "url": "https://wcc1923.com/"}, {"name": "Caverns Country Club", "lat": 38.6645, "lon": -78.4592, "county": "Page", "type": "Resort Course", "url": "https://www.cavernscountryclub.com/"}, {"name": "Shenvalee Golf Resort", "lat": 38.6473, "lon": -78.745, "county": "Shenandoah", "type": "Resort Course", "url": "https://www.shenvalee.com/"}, {"name": "Bryce Resort Golf Course", "lat": 38.8217, "lon": -78.772, "county": "Shenandoah", "type": "Resort Course", "url": "https://www.bryceresort.com/"}, {"name": "The Club at Ironwood", "lat": 38.1294, "lon": -79.0053, "county": "Augusta", "type": "Semi-Private Course", "url": "https://www.theclubatironwood.com/"}, {"name": "Gypsy Hill Golf Course", "lat": 38.1566, "lon": -79.0783, "county": "Staunton", "type": "Municipal Course", "url": "https://www.ci.staunton.va.us/visitors/gypsy-hill-golf"}, {"name": "Orchard Creek Golf Course", "lat": 38.0708, "lon": -78.9108, "county": "Waynesboro", "type": "Semi-Private Course", "url": "https://orchardcreekva.com/"}, {"name": "Waynesboro Country Club", "lat": 38.065, "lon": -78.9282, "county": "Waynesboro", "type": "Private Course", "url": "http://www.waynesborogcc.com/"}, {"name": "Swannanoa Country Club", "lat": 38.0301, "lon": -78.9034, "county": "Augusta", "type": "Public Course", "url": "http://www.swannanoa.com/"}, {"name": "Lakeview Golf Club", "lat": 38.4072, "lon": -78.8753, "county": "Rockingham", "type": "Public Course", "url": "https://www.lakeviewgolf.net/"}, {"name": "Heritage Oaks Golf Course", "lat": 38.428, "lon": -78.8905, "county": "Harrisonburg", "type": "Municipal Course", "url": "https://www.heritageoaksgolfva.com/"}, {"name": "Spotswood Country Club", "lat": 38.4341, "lon": -78.8736, "county": "Harrisonburg", "type": "Private Course", "url": "https://www.spotswoodcc.com/"}, {"name": "Packsaddle Ridge Golf Club", "lat": 38.3839, "lon": -78.7651, "county": "Rockingham", "type": "Public Course", "url": "https://www.packsaddleridge.com/"}, {"name": "Massanutten Resort Golf", "lat": 38.4053, "lon": -78.751, "county": "Rockingham", "type": "Resort Course", "url": "https://www.massresort.com/play/golf/"}, {"name": "Mulligan\u2019s Golf Center", "lat": 38.412, "lon": -78.843, "county": "Rockingham", "type": "Driving Range", "url": "https://www.mulligans-golf.com/"}, {"name": "Sandy Bottom Park Golf Course", "lat": 38.3885, "lon": -78.9747, "county": "Rockingham", "type": "Public / Free Course", "url": "https://www.rockinghamcountyva.gov/BusinessDirectoryII.aspx?lngBusinessCategoryID=35"}, {"name": "The Omni Homestead Resort & Spa", "lat": 37.9974, "lon": -79.8318, "county": "Bath", "type": "Resort Course", "url": "https://www.omnihotels.com/hotels/homestead-virginia/golf"}, {"name": "Cliff View Golf Course", "lat": 37.9935, "lon": -79.8592, "county": "Bath", "type": "Public Course", "url": "https://www.cliffviewgolf.com/"}, {"name": "Poplar Grove Golf Club", "lat": 37.5778, "lon": -79.2807, "county": "Bath", "type": "Private Course", "url": "https://www.poplargrovegolfclub.com/"}, {"name": "Devils Knob Golf Course", "lat": 37.9121, "lon": -78.9485, "county": "Bath", "type": "Resort Course", "url": "https://www.wintergreenresort.com/activity/golf-overview/"}, {"name": "Needle's Eye Golf Club", "lat": 38.4222, "lon": -79.49, "county": "Highland", "type": "Private Course", "url": "https://www.needleseyegolfclub.com/"}, {"name": "Greene Hills Club", "lat": 38.2509, "lon": -78.4036, "county": "Greene", "type": "Private Course", "url": "https://greenehillsclub.com/"}, {"name": "The Highlands Golf Club at Fisher Mountain", "lat": 38.6255, "lon": -79.226, "county": "Pendleton", "type": "Public Course", "url": "https://www.highlands-golf.com/"}, {"name": "Valley View Golf Course", "lat": 39.0133, "lon": -78.9363, "county": "Hardy", "type": "Public Course", "url": "https://www.valleyviewgolfwv.com/"}, {"name": "Pocahontas Country Club", "lat": 38.2291, "lon": -80.0911, "county": "Pocahontas", "type": "Semi-Private Course", "url": "https://www.pocahontasccwv.com/"}, {"name": "Canaan Valley Resort Golf Course", "lat": 39.0567, "lon": -79.4606, "county": "Tucker", "type": "Resort Course", "url": "https://www.canaanresort.com/"}, {"name": "Capon Springs Golf Course", "lat": 39.1451, "lon": -78.4361, "county": "Hampshire", "type": "Resort Course", "url": "https://www.caponsprings.net/"}, {"name": "Raven Golf Club at Snowshoe", "lat": 38.4108, "lon": -79.9976, "county": "Pocahontas", "type": "Resort Course", "url": "https://www.snowshoemtn.com/"}, {"name": "Woodstone Meadows Golf Course", "lat": 38.405, "lon": -78.74, "county": "Rockingham", "type": "Resort Course", "url": "https://www.massresort.com/play/golf/"}, {"name": "Mountain Greens Golf Course", "lat": 38.4056, "lon": -78.749, "county": "Rockingham", "type": "Resort Course", "url": "https://www.massresort.com/play/golf/"}]`;
+    
+var courses = JSON.parse(courseDataJSON);
+courses.forEach(function(course) {
+  var color = typeColors[course.type] || "gray";
+  var marker = L.circleMarker([course.lat, course.lon], {
+    radius: 8,
+    color: color,
+    fillColor: color,
+    fillOpacity: 0.8
+  });
+  var popupContent = "<b>" + course.name + "</b><br>" + course.county + " County<br><a href='" + course.url + "' target='_blank'>" + course.url + "</a>";
+  marker.bindPopup(popupContent);
+  marker.addTo(layerGroups[course.type]);
+  marker.courseName = course.name;
+  allMarkers.push(marker);
+});
+
+
+    var overlays = {
+      'Driving Range': layerGroups['Driving Range'], 'Municipal Course': layerGroups['Municipal Course'], 'Private Course': layerGroups['Private Course'], 'Public / Free Course': layerGroups['Public / Free Course'], 'Public Course': layerGroups['Public Course'], 'Resort Course': layerGroups['Resort Course'], 'Semi-Private Course': layerGroups['Semi-Private Course']
+    };
+    L.control.layers(null, overlays, { collapsed: false }).addTo(map);
+
+    
+var input = document.getElementById('searchInput');
+input.addEventListener('input', function() {
+  var query = this.value.toLowerCase();
+  allMarkers.forEach(function(marker) {
+    var name = marker.courseName.toLowerCase();
+    if (name.includes(query)) {
+      marker.setStyle({opacity: 1, fillOpacity: 0.8});
+    } else {
+      marker.setStyle({opacity: 0, fillOpacity: 0});
+    }
+  });
+});
+
+  </script>
+</body>
+</html>
