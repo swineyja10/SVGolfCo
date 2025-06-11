@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVGolfCo Courses</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 2em;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #2e4e1f;
+        }
+        table.dataTable thead th {
+            background-color: #2e4e1f;
+            color: white;
+        }
+        table.dataTable tbody tr:nth-child(odd) {
+            background-color: #e9f5e3;
+        }
+        table.dataTable tbody tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        a {
+            color: #1d4d1a;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Shenandoah Valley Golf Courses</h1>
+    <table id="golfTable" class="display">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>County</th>
+                <th>Holes</th>
+                <th>Type</th>
+                <th>Website</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Shenandoah Valley Golf Club</td><td>Warren</td><td>27</td><td>Public Course</td><td><a href="https://www.shenandoahvalleygolfclub.com/" target="_blank">Shenandoah Valley Golf Club</a></td></tr><tr><td>Rock Harbor Golf Course</td><td>Frederick</td><td>36</td><td>Public Course</td><td><a href="https://www.rockharborgolf.com/" target="_blank">Rock Harbor Golf Course</a></td></tr><tr><td>Blue Ridge Shadows Golf Club</td><td>Warren</td><td>18</td><td>Public Course</td><td><a href="https://www.blueridgeshadows.com/" target="_blank">Blue Ridge Shadows Golf Club</a></td></tr><tr><td>Front Royal Golf Club</td><td>Warren</td><td>9</td><td>Public Course</td><td><a href="https://www.frontroyalgolfclub.com/" target="_blank">Front Royal Golf Club</a></td></tr><tr><td>Sly Fox Golf Club</td><td>Frederick</td><td>18</td><td>Public Course</td><td><a href="https://slyfoxgolf.com/" target="_blank">Sly Fox Golf Club</a></td></tr><tr><td>Winchester Country Club</td><td>Frederick</td><td>18</td><td>Private Course</td><td><a href="https://wcc1923.com/" target="_blank">Winchester Country Club</a></td></tr><tr><td>Caverns Country Club</td><td>Page</td><td>18</td><td>Resort Course</td><td><a href="https://www.cavernscountryclub.com/" target="_blank">Caverns Country Club</a></td></tr><tr><td>Shenvalee Golf Resort</td><td>Shenandoah</td><td>27</td><td>Resort Course</td><td><a href="https://www.shenvalee.com/" target="_blank">Shenvalee Golf Resort</a></td></tr><tr><td>Bryce Resort Golf Course</td><td>Shenandoah</td><td>18</td><td>Resort Course</td><td><a href="https://www.bryceresort.com/" target="_blank">Bryce Resort Golf Course</a></td></tr><tr><td>The Club at Ironwood</td><td>Augusta</td><td>18</td><td>Semi-Private Course</td><td><a href="https://www.theclubatironwood.com/" target="_blank">The Club at Ironwood</a></td></tr><tr><td>Gypsy Hill Golf Course</td><td>Staunton</td><td>18</td><td>Municipal Course</td><td><a href="https://www.ci.staunton.va.us/visitors/gypsy-hill-golf" target="_blank">Gypsy Hill Golf Course</a></td></tr><tr><td>Orchard Creek Golf Course</td><td>Waynesboro</td><td>18</td><td>Semi-Private Course</td><td><a href="https://orchardcreekva.com/" target="_blank">Orchard Creek Golf Course</a></td></tr><tr><td>Waynesboro Country Club</td><td>Waynesboro</td><td>18</td><td>Private Course</td><td><a href="http://www.waynesborogcc.com/" target="_blank">Waynesboro Country Club</a></td></tr><tr><td>Swannanoa Country Club</td><td>Augusta</td><td>18</td><td>Public Course</td><td><a href="http://www.swannanoa.com/" target="_blank">Swannanoa Country Club</a></td></tr><tr><td>Lakeview Golf Club</td><td>Rockingham</td><td>36</td><td>Public Course</td><td><a href="https://www.lakeviewgolf.net/" target="_blank">Lakeview Golf Club</a></td></tr><tr><td>Heritage Oaks Golf Course</td><td>Harrisonburg</td><td>18</td><td>Municipal Course</td><td><a href="https://www.heritageoaksgolfva.com/" target="_blank">Heritage Oaks Golf Course</a></td></tr><tr><td>Spotswood Country Club</td><td>Harrisonburg</td><td>18</td><td>Private Course</td><td><a href="https://www.spotswoodcc.com/" target="_blank">Spotswood Country Club</a></td></tr><tr><td>Packsaddle Ridge Golf Club</td><td>Rockingham</td><td>18</td><td>Public Course</td><td><a href="https://www.packsaddleridge.com/" target="_blank">Packsaddle Ridge Golf Club</a></td></tr><tr><td>Massanutten Resort Golf</td><td>Rockingham</td><td>36</td><td>Resort Course</td><td><a href="https://www.massresort.com/play/golf/" target="_blank">Massanutten Resort Golf</a></td></tr><tr><td>Mulligan’s Golf Center</td><td>Rockingham</td><td>0</td><td>Driving Range</td><td><a href="https://www.mulligans-golf.com/" target="_blank">Mulligan’s Golf Center</a></td></tr><tr><td>Sandy Bottom Park Golf Course</td><td>Rockingham</td><td>9</td><td>Public / Free Course</td><td><a href="https://www.rockinghamcountyva.gov/BusinessDirectoryII.aspx?lngBusinessCategoryID=35" target="_blank">Sandy Bottom Park Golf Course</a></td></tr><tr><td>The Omni Homestead Resort & Spa</td><td>Bath</td><td>18</td><td>Resort Course</td><td><a href="https://www.omnihotels.com/hotels/homestead-virginia/golf" target="_blank">The Omni Homestead Resort & Spa</a></td></tr><tr><td>Cliff View Golf Course</td><td>Bath</td><td>9</td><td>Public Course</td><td><a href="https://www.cliffviewgolf.com/" target="_blank">Cliff View Golf Course</a></td></tr><tr><td>Poplar Grove Golf Club</td><td>Bath</td><td>18</td><td>Private Course</td><td><a href="https://www.poplargrovegolfclub.com/" target="_blank">Poplar Grove Golf Club</a></td></tr><tr><td>Devils Knob Golf Course</td><td>Bath</td><td>18</td><td>Resort Course</td><td><a href="https://www.wintergreenresort.com/activity/golf-overview/" target="_blank">Devils Knob Golf Course</a></td></tr><tr><td>Needle's Eye Golf Club</td><td>Highland</td><td>9</td><td>Private Course</td><td><a href="https://www.needleseyegolfclub.com/" target="_blank">Needle's Eye Golf Club</a></td></tr><tr><td>Greene Hills Club</td><td>Greene</td><td>18</td><td>Private Course</td><td><a href="https://greenehillsclub.com/" target="_blank">Greene Hills Club</a></td></tr><tr><td>The Highlands Golf Club at Fisher Mountain</td><td>Pendleton</td><td>18</td><td>Public Course</td><td><a href="https://www.highlands-golf.com/" target="_blank">The Highlands Golf Club at Fisher Mountain</a></td></tr><tr><td>Valley View Golf Course</td><td>Hardy</td><td>9</td><td>Public Course</td><td><a href="https://www.valleyviewgolfwv.com/" target="_blank">Valley View Golf Course</a></td></tr><tr><td>Pocahontas Country Club</td><td>Pocahontas</td><td>9</td><td>Semi-Private Course</td><td><a href="https://www.pocahontasccwv.com/" target="_blank">Pocahontas Country Club</a></td></tr><tr><td>Canaan Valley Resort Golf Course</td><td>Tucker</td><td>18</td><td>Resort Course</td><td><a href="https://www.canaanresort.com/" target="_blank">Canaan Valley Resort Golf Course</a></td></tr><tr><td>Capon Springs Golf Course</td><td>Hampshire</td><td>9</td><td>Resort Course</td><td><a href="https://www.caponsprings.net/" target="_blank">Capon Springs Golf Course</a></td></tr><tr><td>Raven Golf Club at Snowshoe</td><td>Pocahontas</td><td>18</td><td>Resort Course</td><td><a href="https://www.snowshoemtn.com/" target="_blank">Raven Golf Club at Snowshoe</a></td></tr><tr><td>Woodstone Meadows Golf Course</td><td>Rockingham</td><td>18</td><td>Resort Course</td><td><a href="https://www.massresort.com/play/golf/" target="_blank">Woodstone Meadows Golf Course</a></td></tr><tr><td>Mountain Greens Golf Course</td><td>Rockingham</td><td>18</td><td>Resort Course</td><td><a href="https://www.massresort.com/play/golf/" target="_blank">Mountain Greens Golf Course</a></td></tr>
+        </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#golfTable').DataTable({
+                pageLength: 10
+            });
+        });
+    </script>
+</body>
+</html>
