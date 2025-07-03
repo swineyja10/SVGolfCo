@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>SVGolfCo Courses</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 2em;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #2e4e1f;
+        }
+        table.dataTable thead th {
+            background-color: #2e4e1f;
+            color: white;
+        }
+        table.dataTable tbody tr:nth-child(odd) {
+            background-color: #e9f5e3;
+        }
+        table.dataTable tbody tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        a {
+            color: #1d4d1a;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Shenandoah Valley Golf Courses</h1>
+    <table id="golfTable" class="display">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>County</th>
+                <th>Holes</th>
+                <th>Type</th>
+                <th>Website</th>
+            </tr>
+        </thead>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script>
+    $(document).ready(function () {
+        $.getJSON('./full_golf_courses.json', function(golfCourses) {
+            $('#golfTable').DataTable({
+                data: golfCourses,
+                columns: [
+                    { data: 'name' },
+                    { data: 'county' },
+                    { data: 'holes' },
+                    { data: 'type' },
+                    {
+                        data: 'website',
+                        render: function (data, type, row) {
+                            return `<a href="${data}" target="_blank">${row.name}</a>`;
+                        }
+                    }
+                ],
+                pageLength: 10
+            });
+        });
+    });
+    </script>
+    </script>
+</body>
+</html>
