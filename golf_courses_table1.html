@@ -1,81 +1,105 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <title>SVGolfCo Courses</title>
+
+    <!-- DataTables core CSS + Responsive extension -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css" />
+
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: Arial, sans-serif;
-            padding: 2em;
+            margin: 10px;
             background-color: #f4f4f4;
         }
+
         h1 {
             color: #2e4e1f;
+            text-align: center;
+            margin-bottom: 1em;
         }
+
+        .table-container {
+            overflow-x: auto;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+        table.dataTable {
+            width: 100% !important;
+            border-collapse: collapse;
+        }
+
         table.dataTable thead th {
             background-color: #2e4e1f;
             color: white;
         }
+
         table.dataTable tbody tr:nth-child(odd) {
             background-color: #e9f5e3;
         }
+
         table.dataTable tbody tr:nth-child(even) {
             background-color: #ffffff;
         }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
+
         a {
             color: #1d4d1a;
             text-decoration: none;
             font-weight: bold;
         }
+
         a:hover {
             text-decoration: underline;
+        }
+
+        @media screen and (max-width: 600px) {
+            h1 {
+                font-size: 1.5em;
+            }
         }
     </style>
 </head>
 <body>
     <h1>Shenandoah Valley Golf Courses</h1>
-    <table id="golfTable" class="display">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>County</th>
-                <th>Holes</th>
-                <th>Type</th>
-                <th>Website</th>
-            </tr>
-        </thead>
-    </table>
+    <div class="table-container">
+        <table id="golfTable" class="display responsive nowrap"></table>
+    </div>
 
+    <!-- Scripts: jQuery, DataTables + Responsive extension -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+
     <script>
-    $(document).ready(function () {
-        $.getJSON('./full_golf_courses.json', function(golfCourses) {
-            $('#golfTable').DataTable({
-                data: golfCourses,
-                columns: [
-                    { data: 'name' },
-                    { data: 'county' },
-                    { data: 'holes' },
-                    { data: 'type' },
-                    {
-                        data: 'website',
-                        render: function (data, type, row) {
-                            return `<a href="${data}" target="_blank">${row.name}</a>`;
-                        }
-                    }
-                ],
-                pageLength: 10
-            });
+      $(document).ready(function () {
+        $.getJSON("https://raw.githubusercontent.com/swineyja10/SVGolfCo/main/full_golf_courses.json", function (data) {
+          $('#golfTable').DataTable({
+            data: data,
+            responsive: true,
+            columns: [
+              { title: 'Name', data: 'name' },
+              { title: 'County', data: 'county' },
+              { title: 'Holes', data: 'holes' },
+              { title: 'Type', data: 'type' },
+              {
+                title: 'Website',
+                data: 'website',
+                render: function (data, type, row) {
+                  return `<a href="${data}" target="_blank">${row.name}</a>`;
+                }
+              }
+            ],
+            pageLength: 10
+          });
         });
-    });
-    </script>
+      });
     </script>
 </body>
 </html>
