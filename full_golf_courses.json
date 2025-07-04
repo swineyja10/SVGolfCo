@@ -1,4 +1,14 @@
 [
+  
+    {
+    "name": "Nicks Golf Course",
+    "county": "Warren",
+    "holes": 27,
+    "type": "Public Course",
+    "website": "https://www.itecasolutions.com/",
+    "latitude": 40.0207,
+    "longitude": -79.1297
+  },
   {
     "name": "Shenandoah Valley Golf Club",
     "county": "Warren",
