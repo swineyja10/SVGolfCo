@@ -4,146 +4,188 @@
     "county": "Warren",
     "holes": 27,
     "type": "Public Course",
-    "website": "https://www.shenandoahvalleygolfclub.com/"
+    "website": "https://www.shenandoahvalleygolfclub.com/",
+    "latitude": 39.0207,
+    "longitude": -78.1297
   },
   {
     "name": "Rock Harbor Golf Course",
     "county": "Frederick",
     "holes": 36,
     "type": "Public Course",
-    "website": "https://www.rockharborgolf.com/"
+    "website": "https://www.rockharborgolf.com/",
+    "latitude": 39.1792,
+    "longitude": -78.1619
   },
   {
     "name": "Blue Ridge Shadows Golf Club",
     "county": "Warren",
     "holes": 18,
     "type": "Public Course",
-    "website": "https://www.blueridgeshadows.com/"
+    "website": "https://www.blueridgeshadows.com/",
+    "latitude": 39.0012,
+    "longitude": -78.2035
   },
   {
     "name": "Front Royal Golf Club",
     "county": "Warren",
     "holes": 9,
     "type": "Public Course",
-    "website": "https://www.frontroyalgolfclub.com/"
+    "website": "https://www.frontroyalgolfclub.com/",
+    "latitude": 38.935,
+    "longitude": -78.1845
   },
   {
     "name": "Sly Fox Golf Club",
     "county": "Frederick",
     "holes": 18,
     "type": "Public Course",
-    "website": "https://slyfoxgolf.com/"
+    "website": "https://slyfoxgolf.com/",
+    "latitude": 39.0916,
+    "longitude": -78.2856
   },
   {
     "name": "Winchester Country Club",
     "county": "Frederick",
     "holes": 18,
     "type": "Private Course",
-    "website": "https://wcc1923.com/"
+    "website": "https://wcc1923.com/",
+    "latitude": 39.1799,
+    "longitude": -78.1585
   },
   {
     "name": "Caverns Country Club",
     "county": "Page",
     "holes": 18,
     "type": "Resort Course",
-    "website": "https://www.cavernscountryclub.com/"
+    "website": "https://www.cavernscountryclub.com/",
+    "latitude": 38.6645,
+    "longitude": -78.4592
   },
   {
     "name": "Shenvalee Golf Resort",
     "county": "Shenandoah",
     "holes": 27,
     "type": "Resort Course",
-    "website": "https://www.shenvalee.com/"
+    "website": "https://www.shenvalee.com/",
+    "latitude": 38.6473,
+    "longitude": -78.745
   },
   {
     "name": "Bryce Resort Golf Course",
     "county": "Shenandoah",
     "holes": 18,
     "type": "Resort Course",
-    "website": "https://www.bryceresort.com/"
+    "website": "https://www.bryceresort.com/",
+    "latitude": 38.8217,
+    "longitude": -78.772
   },
   {
     "name": "The Club at Ironwood",
     "county": "Augusta",
     "holes": 18,
     "type": "Semi-Private Course",
-    "website": "https://www.theclubatironwood.com/"
+    "website": "https://www.theclubatironwood.com/",
+    "latitude": 38.1294,
+    "longitude": -79.0053
   },
   {
     "name": "Gypsy Hill Golf Course",
     "county": "Staunton",
     "holes": 18,
     "type": "Municipal Course",
-    "website": "https://www.ci.staunton.va.us/visitors/gypsy-hill-golf"
+    "website": "https://www.ci.staunton.va.us/visitors/gypsy-hill-golf",
+    "latitude": 38.1566,
+    "longitude": -79.0783
   },
   {
     "name": "Orchard Creek Golf Course",
     "county": "Waynesboro",
     "holes": 18,
     "type": "Semi-Private Course",
-    "website": "https://orchardcreekva.com/"
+    "website": "https://orchardcreekva.com/",
+    "latitude": 38.0708,
+    "longitude": -78.9108
   },
   {
     "name": "Waynesboro Country Club",
     "county": "Waynesboro",
     "holes": 18,
     "type": "Private Course",
-    "website": "http://www.waynesborogcc.com/"
+    "website": "http://www.waynesborogcc.com/",
+    "latitude": 38.065,
+    "longitude": -78.9282
   },
   {
     "name": "Swannanoa Country Club",
     "county": "Augusta",
     "holes": 18,
     "type": "Public Course",
-    "website": "http://www.swannanoa.com/"
+    "website": "http://www.swannanoa.com/",
+    "latitude": 38.0301,
+    "longitude": -78.9034
   },
   {
     "name": "Lakeview Golf Club",
     "county": "Rockingham",
     "holes": 36,
     "type": "Public Course",
-    "website": "https://www.lakeviewgolf.net/"
+    "website": "https://www.lakeviewgolf.net/",
+    "latitude": 38.4072,
+    "longitude": -78.8753
   },
   {
     "name": "Heritage Oaks Golf Course",
     "county": "Harrisonburg",
     "holes": 18,
     "type": "Municipal Course",
-    "website": "https://www.heritageoaksgolfva.com/"
+    "website": "https://www.heritageoaksgolfva.com/",
+    "latitude": 38.428,
+    "longitude": -78.8905
   },
   {
     "name": "Spotswood Country Club",
     "county": "Harrisonburg",
     "holes": 18,
     "type": "Private Course",
-    "website": "https://www.spotswoodcc.com/"
+    "website": "https://www.spotswoodcc.com/",
+    "latitude": 38.4341,
+    "longitude": -78.8736
   },
   {
     "name": "Packsaddle Ridge Golf Club",
     "county": "Rockingham",
     "holes": 18,
     "type": "Public Course",
-    "website": "https://www.packsaddleridge.com/"
+    "website": "https://www.packsaddleridge.com/",
+    "latitude": 38.3839,
+    "longitude": -78.7651
   },
   {
     "name": "Massanutten Resort Golf",
     "county": "Rockingham",
     "holes": 36,
     "type": "Resort Course",
-    "website": "https://www.massresort.com/play/golf/"
+    "website": "https://www.massresort.com/play/golf/",
+    "latitude": 38.4053,
+    "longitude": -78.751
   },
   {
     "name": "Mulligan\u2019s Golf Center",
     "county": "Rockingham",
     "holes": 0,
     "type": "Driving Range",
-    "website": "https://www.mulligans-golf.com/"
+    "website": "https://www.mulligans-golf.com/",
+    "latitude": 38.412,
+    "longitude": -78.843
   },
   {
     "name": "Sandy Bottom Park Golf Course",
     "county": "Rockingham",
     "holes": 9,
     "type": "Public / Free Course",
-    "website": "https://www.rockinghamcountyva.gov/BusinessDirectoryII.aspx?lngBusinessCategoryID=35"
+    "website": "https://www.rockinghamcountyva.gov/BusinessDirectoryII.aspx?lngBusinessCategoryID=35",
+    "latitude": 38.3885,
+    "longitude": -78.9747
   }
 ]
