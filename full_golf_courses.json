@@ -1,30 +1,564 @@
 [
   {
-    "name": "Nicks Golf Course",
-    "county": "Warren",
-    "holes": 27,
-    "type": "Public Course",
-    "website": "https://www.itecasolutions.com/",
-    "latitude": 40.0207,
-    "longitude": -79.1297
+    "name":"Cliff View Golf Course",
+    "county":"Alleghany",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/www.visitcliffview.com\/the-course",
+    "latitude":37.87227,
+    "longitude":-79.97288,
+    "phone":"540-962-2200",
+    "email":"cliffviewgolfandinn@gmail.com"
   },
   {
-    "name": "Shenandoah Valley Golf Club",
-    "county": "Warren",
-    "holes": 27,
-    "type": "Public Course",
-    "website": "https://www.shenandoahvalleygolfclub.com/",
-    "latitude": 39.0207,
-    "longitude": -78.1297
+    "name":"Cliftondale Country Club",
+    "county":"Alleghany",
+    "holes":9,
+    "type":"Public Course",
+    "website":"https:\/\/www.facebook.com\/p\/Cliftondale-Country-Club-100057530796528\/",
+    "latitude":37.82383,
+    "longitude":-79.79329,
+    "phone":"540-862-2081",
+    "email":"CourtneyGunter.CCC@gmail.com"
   },
   {
-    "name": "Rock Harbor Golf Course",
-    "county": "Frederick",
-    "holes": 36,
-    "type": "Public Course",
-    "website": "https://www.rockharborgolf.com/",
-    "latitude": 39.1792,
-    "longitude": -78.1619
+    "name":"Poplar Grove Golf Club",
+    "county":"Amherst",
+    "holes":18,
+    "type":"Private Course",
+    "website":"https:\/\/www.poplargrovegolf.com\/",
+    "latitude":37.55072,
+    "longitude":-79.04756,
+    "phone":"434-946-9933",
+    "email":null
+  },
+  {
+    "name":"The Club at Ironwood",
+    "county":"Augusta",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/www.theclubatironwood.com\/",
+    "latitude":38.42458,
+    "longitude":-78.86569,
+    "phone":"540-248-7273",
+    "email":null
+  },
+  {
+    "name":"Gypsy Hill Golf Course",
+    "county":"Augusta",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/www.ci.staunton.va.us\/visitors\/gypsy-hill-golf",
+    "latitude":38.15949,
+    "longitude":-79.08475,
+    "phone":"540-332-3949",
+    "email":null
+  },
+  {
+    "name":"Orchard Creek Golf Course",
+    "county":"Augusta",
+    "holes":18,
+    "type":"Private Course",
+    "website":"https:\/\/orchardcreekva.com\/",
+    "latitude":38.0599,
+    "longitude":-78.91252,
+    "phone":"540-943-1131",
+    "email":"kcomer@rcc-team.com"
+  },
+  {
+    "name":"Swannanoa Country Club",
+    "county":"Augusta",
+    "holes":18,
+    "type":"Public Course",
+    "website":"http:\/\/www.swannanoa.com\/",
+    "latitude":38.02011,
+    "longitude":-78.87926,
+    "phone":"540-943-1188",
+    "email":null
+  },
+  {
+    "name":"Ingleside Golf Resort",
+    "county":"Augusta",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/www.facebook.com\/InglesideGolf\/",
+    "latitude":38.18447,
+    "longitude":-79.02951,
+    "phone":"540-248-7888",
+    "email":null
+  },
+  {
+    "name":"Bunker Valley Golf Range",
+    "county":"Augusta",
+    "holes":0,
+    "type":"Driving Range",
+    "website":"https:\/\/www.facebook.com\/BVGRLC\/",
+    "latitude":-38.0435,
+    "longitude":-79.00282,
+    "phone":"540-949-4440",
+    "email":"Bunkervalleygolf@gmail.com"
+  },
+  {
+    "name":"Kandi Comer Golf",
+    "county":"Augusta",
+    "holes":0,
+    "type":"Driving Range",
+    "website":"https:\/\/kandicomergolf.com\/",
+    "latitude":38.05818,
+    "longitude":-78.91382,
+    "phone":"(540) 943-1131",
+    "email":"Kandi@KandiComerGolf.com"
+  },
+  {
+    "name":"The Omni Homestead - Old Course",
+    "county":"Bath",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/www.omnihotels.com\/hotels\/homestead-virginia\/golf\/old-course",
+    "latitude":37.99962,
+    "longitude":-79.8014,
+    "phone":"800-838-1766",
+    "email":null
+  },
+  {
+    "name":"The Omni Homestead - Cascades Golf Course",
+    "county":"Bath",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/www.omnihotels.com\/hotels\/homestead-virginia\/golf\/cascades-course",
+    "latitude":37.95959,
+    "longitude":-79.86574,
+    "phone":"800-838-1766",
+    "email":null
+  },
+  {
+    "name":"Millwood Country Club",
+    "county":"Clarke",
+    "holes":9,
+    "type":"Public Course",
+    "website":"https:\/\/www.millwoodcc.org\/",
+    "latitude":39.08,
+    "longitude":-78.05401,
+    "phone":"540-837-1080",
+    "email":"clubhouse@millwoodcc.org"
+  },
+  {
+    "name":"Rock Harbor Golf Course",
+    "county":"Frederick",
+    "holes":36,
+    "type":"Public Course",
+    "website":"https:\/\/www.rockharborgolf.com\/",
+    "latitude":39.18188,
+    "longitude":-78.20698,
+    "phone":"540-722-7111",
+    "email":"ccorey@rockharborgolf.com"
+  },
+  {
+    "name":"Winchester Country Club",
+    "county":"Frederick",
+    "holes":18,
+    "type":"Private Course",
+    "website":"https:\/\/wcc1923.com\/",
+    "latitude":39.17029,
+    "longitude":-78.14463,
+    "phone":"540-662-3821",
+    "email":"info@wcc1923.com"
+  },
+  {
+    "name":"Valley View Golf Club",
+    "county":"Greenbrier",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/www.valleyviewcountryclub.com\/",
+    "latitude":37.85001,
+    "longitude":-80.27524,
+    "phone":"304-536-1600",
+    "email":"Valleyviewcountryclub@gmail.com"
+  },
+  {
+    "name":"The Greenbrier",
+    "county":"Greenbrier",
+    "holes":63,
+    "type":"Resort Course",
+    "website":"https:\/\/www.greenbrier.com\/",
+    "latitude":37.78725,
+    "longitude":-80.31431,
+    "phone":"540-453-4858",
+    "email":"pr@greenbrier.com"
+  },
+  {
+    "name":"Lewisburg Elks Country Club",
+    "county":"Greenbrier",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/www.lewisburgelkscc.com\/",
+    "latitude":37.82002,
+    "longitude":-80.41841,
+    "phone":"304-645-3660",
+    "email":"lewisburgelks@gmail.com"
+  },
+  {
+    "name":"Greene Hills Club",
+    "county":"Greene",
+    "holes":18,
+    "type":"Private Course",
+    "website":"https:\/\/greenehillsclub.com\/",
+    "latitude":38.35693,
+    "longitude":-78.40309,
+    "phone":"434-985-1150",
+    "email":"https:\/\/olemontereygolf.com\/home"
+  },
+  {
+    "name":"Capon Springs Golf Course",
+    "county":"Hampshire",
+    "holes":9,
+    "type":"Resort Course",
+    "website":"https:\/\/www.caponsprings.net\/",
+    "latitude":39.13242,
+    "longitude":-78.47982,
+    "phone":"304-874-3695",
+    "email":null
+  },
+  {
+    "name":"Valley View Golf Course",
+    "county":"Hardy",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/www.valleyviewgolfwv.com\/",
+    "latitude":39.08512,
+    "longitude":-78.99127,
+    "phone":"304-538-6564",
+    "email":null
+  },
+  {
+    "name":"Spotswood Country Club",
+    "county":"Harrisonburg",
+    "holes":18,
+    "type":"Private Course",
+    "website":"https:\/\/www.spotswoodcc.com\/",
+    "latitude":38.42868,
+    "longitude":-78.83765,
+    "phone":"540-433-2659",
+    "email":null
+  },
+  {
+    "name":"Devils Knob Golf Course",
+    "county":"Nelson",
+    "holes":18,
+    "type":"Resort Course",
+    "website":"https:\/\/www.wintergreenresort.com\/devils-knob\/",
+    "latitude":37.92409,
+    "longitude":-78.94931,
+    "phone":"434-325-2200",
+    "email":"info@wintergreenresort.com"
+  },
+  {
+    "name":"Stoney Creek Golf Course",
+    "county":"Nelson",
+    "holes":27,
+    "type":"Resort Course",
+    "website":"https:\/\/www.wintergreenresort.com\/stoney-creek\/",
+    "latitude":37.89617,
+    "longitude":-78.88024,
+    "phone":"434-325-2200",
+    "email":"info@wintergreenresort.com"
+  },
+  {
+    "name":"Caverns Country Club",
+    "county":"Page",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/luraycaverns.com\/area-attractions\/caverns-country-club-golf-resort\/",
+    "latitude":38.67416,
+    "longitude":-78.50742,
+    "phone":"540.743.6551",
+    "email":null
+  },
+  {
+    "name":"Fisher Mountain",
+    "county":"Pendleton",
+    "holes":18,
+    "type":"Resort Course",
+    "website":"https:\/\/www.facebook.com\/FisherMountain\/",
+    "latitude":38.68153,
+    "longitude":-79.24026,
+    "phone":"304-358-2261",
+    "email":"lbrown@fishermountain.com"
+  },
+  {
+    "name":"Pocahontas Country Country Club",
+    "county":"Pocahontas",
+    "holes":9,
+    "type":"Public Course",
+    "website":"https:\/\/pocahontascountywv.com\/company\/pocahontas-county-country-club\/",
+    "latitude":38.20188,
+    "longitude":-80.11303,
+    "phone":"304-799-7466",
+    "email":"tourism24954@gmail.com"
+  },
+  {
+    "name":"Raven Golf Club at Snowshoe",
+    "county":"Pocahontas",
+    "holes":18,
+    "type":"Resort Course",
+    "website":"https:\/\/www.snowshoemtn.com\/things-to-do\/activities\/raven-golf-club",
+    "latitude":38.40419,
+    "longitude":-80.02085,
+    "phone":"304-572-6561",
+    "email":null
+  },
+  {
+    "name":"Ole Monterey Golf Club",
+    "county":"Roanoke",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/olemontereygolf.com\/home",
+    "latitude":37.30985,
+    "longitude":-79.91861,
+    "phone":"540-563-0400",
+    "email":null
+  },
+  {
+    "name":"Blue Hills Golf Club",
+    "county":"Roanoke",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/bluehillsgc.com\/",
+    "latitude":37.31118,
+    "longitude":-79.90734,
+    "phone":"540-344-7848",
+    "email":null
+  },
+  {
+    "name":"Ballyhack Golf Club",
+    "county":"Roanoke",
+    "holes":18,
+    "type":"Private Course",
+    "website":"https:\/\/www.linkedin.com\/company\/ballyhack-golf-club",
+    "latitude":37.23214,
+    "longitude":-79.89329,
+    "phone":"540-427-1395",
+    "email":null
+  },
+  {
+    "name":"Ashley Plantation Country Club",
+    "county":"Roanoke",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/ashleyplantation.com\/",
+    "latitude":37.43584,
+    "longitude":-79.89271,
+    "phone":"540-600-4653",
+    "email":"info@AshleyPlantation.com"
+  },
+  {
+    "name":"Hunting Hills Country Club",
+    "county":"Roanoke",
+    "holes":18,
+    "type":"Private Course",
+    "website":"https:\/\/huntinghillscc.com\/",
+    "latitude":37.21498,
+    "longitude":-79.97568,
+    "phone":"540-774-4435",
+    "email":"jryan@huntinghillscc.com"
+  },
+  {
+    "name":"Brookside Par 3 Golf Course",
+    "county":"Roanoke",
+    "holes":9,
+    "type":"Public Course",
+    "website":"https:\/\/www.brooksidepar3golf.com\/",
+    "latitude":37.33439,
+    "longitude":-79.95364,
+    "phone":"540-336-6059",
+    "email":null
+  },
+  {
+    "name":"Botetourt Golf and Swim Club",
+    "county":"Roanoke",
+    "holes":18,
+    "type":"Private Course",
+    "website":"https:\/\/botetourtgolfswimclub.com\/",
+    "latitude":37.47505,
+    "longitude":-79.92513,
+    "phone":"540-992-1451",
+    "email":"botgolf2414@gmail.com"
+  },
+  {
+    "name":"Hidden Valley Country Club",
+    "county":"Roanoke",
+    "holes":18,
+    "type":"Private Course",
+    "website":"https:\/\/hiddenvalleycc.com\/",
+    "latitude":37.26188,
+    "longitude":-80.04919,
+    "phone":"540-389-8146",
+    "email":"srieth@hiddenvalleycc.com"
+  },
+  {
+    "name":"Salem Golf Course",
+    "county":"Roanoke",
+    "holes":9,
+    "type":"Public Course",
+    "website":"https:\/\/www.salemva.gov\/317\/Municipal-Golf-Course",
+    "latitude":37.29819,
+    "longitude":-80.0635,
+    "phone":"540-666-1992",
+    "email":null
+  },
+  {
+    "name":"Copper Cove Golf Club",
+    "county":"Roanoke",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/coppercovegolfclub.com\/",
+    "latitude":37.13427,
+    "longitude":-79.72072,
+    "phone":"540-721-4214",
+    "email":null
+  },
+  {
+    "name":"Hanging Rock Golf Club",
+    "county":"Roanoke",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/www.hangingrockgolf.com\/",
+    "latitude":37.31545,
+    "longitude":-80.07137,
+    "phone":"540-389-7275",
+    "email":"hrgc@hangingrockgolf.com"
+  },
+  {
+    "name":"Lexington Golf & Country Club",
+    "county":"Rockbridge",
+    "holes":18,
+    "type":"Resort Course",
+    "website":"https:\/\/www.lexingtongolfandcountryclub.com\/",
+    "latitude":37.76885,
+    "longitude":-79.46198,
+    "phone":"540-463-3542",
+    "email":null
+  },
+  {
+    "name":"Lakeview Golf Club",
+    "county":"Rockingham",
+    "holes":27,
+    "type":"Public Course",
+    "website":"https:\/\/www.lakeviewgolf.net\/",
+    "latitude":38.39022,
+    "longitude":-78.8311,
+    "phone":"540-434-8937",
+    "email":"proshop@lakeviewgolf.net"
+  },
+  {
+    "name":"Heritage Oaks Golf Course",
+    "county":"Rockingham",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/www.heritageoaksgolfva.com\/",
+    "latitude":38.44717,
+    "longitude":-78.90295,
+    "phone":"540-442-6502",
+    "email":"harles.fultz@harrisonburgva.gov"
+  },
+  {
+    "name":"Packsaddle Ridge Golf Club",
+    "county":"Rockingham",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/www.packsaddleridge.com\/",
+    "latitude":38.46628,
+    "longitude":-78.74523,
+    "phone":"540-269-8188",
+    "email":"proshop@packsaddleridge.com"
+  },
+  {
+    "name":"Woodstone Meadows Golf Course",
+    "county":"Rockingham",
+    "holes":18,
+    "type":"Resort Course",
+    "website":"https:\/\/www.massresort.com\/play\/golf\/woodstone-meadows\/",
+    "latitude":38.41271,
+    "longitude":-78.70802,
+    "phone":"540-289-4919",
+    "email":"woodstonegolf@massresort.com"
+  },
+  {
+    "name":"Mountain Greens Golf Course",
+    "county":"Rockingham",
+    "holes":18,
+    "type":"Resort Course",
+    "website":"https:\/\/www.massresort.com\/play\/golf\/mountain-greens\/",
+    "latitude":38.41078,
+    "longitude":-78.75012,
+    "phone":"540-289-4941",
+    "email":"mtngreens@massresort.com"
+  },
+  {
+    "name":"Mulligan\u2019s Golf Center",
+    "county":"Rockingham",
+    "holes":0,
+    "type":"Driving Range",
+    "website":"https:\/\/www.mulligans-golf.com\/",
+    "latitude":38.39177,
+    "longitude":-78.9148,
+    "phone":"540-432-9040",
+    "email":"info@mulligans-golf.com"
+  },
+  {
+    "name":"Sandy Bottom Park Golf Course",
+    "county":"Rockingham",
+    "holes":9,
+    "type":"Public Course",
+    "website":"https:\/\/www.rockinghamcountyva.gov\/BusinessDirectoryII.aspx?lngBusinessCategoryID=35",
+    "latitude":38.37103,
+    "longitude":-78.96711,
+    "phone":null,
+    "email":null
+  },
+  {
+    "name":"First Tee - Shenandoah Valley",
+    "county":"Rockingham",
+    "holes":0,
+    "type":"Driving Range",
+    "website":"https:\/\/firstteeshenandoahvalley.org\/",
+    "latitude":38.44843,
+    "longitude":-78.90573,
+    "phone":"540-437-4239",
+    "email":"firstteeshenandoahvalley@gmail.com"
+  },
+  {
+    "name":"Shenvalee Golf Resort",
+    "county":"Shenandoah",
+    "holes":27,
+    "type":"Public Course",
+    "website":"https:\/\/www.shenvalee.com\/",
+    "latitude":38.63981,
+    "longitude":-78.67334,
+    "phone":"540-740-8337",
+    "email":"info@shenvalee.com"
+  },
+  {
+    "name":"Bryce Resort Golf Course",
+    "county":"Shenandoah",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/www.bryceresort.com\/",
+    "latitude":38.81967,
+    "longitude":-78.76296,
+    "phone":"540-856-2121",
+    "email":null
+  },
+  {
+    "name":"Shenandoah Valley Golf Club",
+    "county":"Warren",
+    "holes":36,
+    "type":"Public Course",
+    "website":"https:\/\/www.shenandoahvalleygolfclub.com\/",
+    "latitude":38.99219,
+    "longitude":-78.12942,
+    "phone":"540-636-4653",
+    "email":"golf@svgcgolf.com"
   },
   {
     "name":"Blue Ridge Shadows Golf Club",
@@ -38,327 +572,25 @@
     "email":"info@blueridgeshadows.com"
   },
   {
-    "name": "Front Royal Golf Club",
-    "county": "Warren",
-    "holes": 9,
-    "type": "Public Course",
-    "website": "https://www.frontroyalgolfclub.com/",
-    "latitude": null,
-    "longitude": null
+    "name":"Front Royal Golf Club",
+    "county":"Warren",
+    "holes":9,
+    "type":"Public Course",
+    "website":"https:\/\/www.frontroyalgolfclub.com\/",
+    "latitude":38.95856,
+    "longitude":-78.18618,
+    "phone":"540-636-9061",
+    "email":"vagolfcorp@gmail.com"
   },
   {
-    "name": "Sly Fox Golf Club",
-    "county": "Frederick",
-    "holes": 18,
-    "type": "Public Course",
-    "website": "https://slyfoxgolf.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Winchester Country Club",
-    "county": "Frederick",
-    "holes": 18,
-    "type": "Private Course",
-    "website": "https://wcc1923.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Caverns Country Club",
-    "county": "Page",
-    "holes": 18,
-    "type": "Resort Course",
-    "website": "https://www.cavernscountryclub.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Shenvalee Golf Resort",
-    "county": "Shenandoah",
-    "holes": 27,
-    "type": "Resort Course",
-    "website": "https://www.shenvalee.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Bryce Resort Golf Course",
-    "county": "Shenandoah",
-    "holes": 18,
-    "type": "Resort Course",
-    "website": "https://www.bryceresort.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "The Club at Ironwood",
-    "county": "Augusta",
-    "holes": 18,
-    "type": "Semi-Private Course",
-    "website": "https://www.theclubatironwood.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Gypsy Hill Golf Course",
-    "county": "Staunton",
-    "holes": 18,
-    "type": "Municipal Course",
-    "website": "https://www.ci.staunton.va.us/visitors/gypsy-hill-golf",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Orchard Creek Golf Course",
-    "county": "Waynesboro",
-    "holes": 18,
-    "type": "Semi-Private Course",
-    "website": "https://orchardcreekva.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Waynesboro Country Club",
-    "county": "Waynesboro",
-    "holes": 18,
-    "type": "Private Course",
-    "website": "http://www.waynesborogcc.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Swannanoa Country Club",
-    "county": "Augusta",
-    "holes": 18,
-    "type": "Public Course",
-    "website": "http://www.swannanoa.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Lakeview Golf Club",
-    "county": "Rockingham",
-    "holes": 27,
-    "type": "Public Course",
-    "website": "https://www.lakeviewgolf.net/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Heritage Oaks Golf Course",
-    "county": "Harrisonburg",
-    "holes": 18,
-    "type": "Municipal Course",
-    "website": "https://www.heritageoaksgolfva.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Spotswood Country Club",
-    "county": "Harrisonburg",
-    "holes": 18,
-    "type": "Private Course",
-    "website": "https://www.spotswoodcc.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Packsaddle Ridge Golf Club",
-    "county": "Rockingham",
-    "holes": 18,
-    "type": "Public Course",
-    "website": "https://www.packsaddleridge.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Massanutten Resort Golf",
-    "county": "Rockingham",
-    "holes": 36,
-    "type": "Resort Course",
-    "website": "https://www.massresort.com/play/golf/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Mulligan\u2019s Golf Center",
-    "county": "Rockingham",
-    "holes": 0,
-    "type": "Driving Range",
-    "website": "https://www.mulligans-golf.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Sandy Bottom Park Golf Course",
-    "county": "Rockingham",
-    "holes": 9,
-    "type": "Public / Free Course",
-    "website": "https://www.rockinghamcountyva.gov/BusinessDirectoryII.aspx?lngBusinessCategoryID=35",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "The Omni Homestead Resort & Spa",
-    "county": "Bath",
-    "holes": 36,
-    "type": "Resort Course",
-    "website": "https://www.omnihotels.com/hotels/homestead-virginia/golf",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Cliff View Golf Course",
-    "county": "Bath",
-    "holes": 18,
-    "type": "Public Course",
-    "website": "https://www.cliffviewgolf.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Poplar Grove Golf Club",
-    "county": "Bath",
-    "holes": 18,
-    "type": "Private Course",
-    "website": "https://www.poplargrovegolfclub.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Devils Knob Golf Course",
-    "county": "Bath",
-    "holes": 18,
-    "type": "Resort Course",
-    "website": "https://www.wintergreenresort.com/activity/golf-overview/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Needle's Eye Golf Club",
-    "county": "Highland",
-    "holes": 9,
-    "type": "Private Course",
-    "website": "https://www.needleseyegolfclub.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Greene Hills Club",
-    "county": "Greene",
-    "holes": 18,
-    "type": "Private Course",
-    "website": "https://greenehillsclub.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "The Highlands Golf Club at Fisher Mountain",
-    "county": "Pendleton",
-    "holes": 18,
-    "type": "Public Course",
-    "website": "https://www.highlands-golf.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Valley View Golf Course",
-    "county": "Hardy",
-    "holes": 18,
-    "type": "Public Course",
-    "website": "https://www.valleyviewgolfwv.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Pocahontas Country Club",
-    "county": "Pocahontas",
-    "holes": 9,
-    "type": "Semi-Private Course",
-    "website": "https://www.pocahontasccwv.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Canaan Valley Resort Golf Course",
-    "county": "Tucker",
-    "holes": 18,
-    "type": "Resort Course",
-    "website": "https://www.canaanresort.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Capon Springs Golf Course",
-    "county": "Hampshire",
-    "holes": 9,
-    "type": "Resort Course",
-    "website": "https://www.caponsprings.net/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Raven Golf Club at Snowshoe",
-    "county": "Pocahontas",
-    "holes": 18,
-    "type": "Resort Course",
-    "website": "https://www.snowshoemtn.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Lexington Golf & Country Club",
-    "county": "Rockbridge",
-    "holes": 18,
-    "type": "Semi-Private Course",
-    "website": "https://www.lexingtongolfandcountryclub.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Ingleside Golf Resort",
-    "county": "Augusta",
-    "holes": 18,
-    "type": "Public Course",
-    "website": "https://www.inglesidegolf.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Vista Links Golf Course",
-    "county": "Buena Vista",
-    "holes": 18,
-    "type": "Public Course",
-    "website": "https://www.vistalinksgc.com/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Cliftondale Country Club",
-    "county": "Clifton Forge",
-    "holes": 9,
-    "type": "Semi-Private Course",
-    "website": "https://www.facebook.com/people/Cliftondale-Country-Club/100063765237525/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Millwood Country Club",
-    "county": "Clarke",
-    "holes": 9,
-    "type": "Private Course",
-    "website": "https://www.facebook.com/millwoodcountryclub/",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "name": "Natural Bridge Golf Club",
-    "county": "Rockbridge",
-    "holes": 18,
-    "type": "Private Course",
-    "website": "https://www.naturalbridgegolf.com/",
-    "latitude": null,
-    "longitude": null
+    "name":"Sly Fox Golf Club",
+    "county":"Warren",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/slyfoxgolf.com\/",
+    "latitude":38.98011,
+    "longitude":-78.22217,
+    "phone":"540-635-7814",
+    "email":"events@Slyfoxgolf.com"
   }
 ]
