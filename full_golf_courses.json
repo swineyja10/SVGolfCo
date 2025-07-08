@@ -27,13 +27,15 @@
     "longitude": -78.1619
   },
   {
-    "name": "Blue Ridge Shadows Golf Club",
-    "county": "Warren",
-    "holes": 18,
-    "type": "Public Course",
-    "website": "https://www.blueridgeshadows.com/",
-    "latitude": null,
-    "longitude": null
+    "name":"Blue Ridge Shadows Golf Club",
+    "county":"Warren",
+    "holes":18,
+    "type":"Public Course",
+    "website":"https:\/\/www.blueridgeshadows.com\/",
+    "latitude":38.98893,
+    "longitude":-78.1863,
+    "phone":"540-631-9661",
+    "email":"info@blueridgeshadows.com"
   },
   {
     "name": "Front Royal Golf Club",
