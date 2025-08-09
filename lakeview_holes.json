@@ -1,0 +1,388 @@
+{
+  "courses": [
+    {
+      "name": "Lake",
+      "holes": [
+        {
+          "hole": 1,
+          "par": 4,
+          "handicap_men": 2,
+          "handicap_ladies": 1,
+          "yardage": {
+            "blue": 414,
+            "white": 404,
+            "gold": 382,
+            "red_long": 377,
+            "red_short": 306
+          },
+          "desc": "A challenging first hole. Out of bounds on the right and the lake left of the trees make for an intimidating tee shot. The elevated green requires one more club from the fairway. A subtle, sloping green makes 4 a good score.",
+          "img": "Lake-1.jpeg"
+        },
+        {
+          "hole": 2,
+          "par": 4,
+          "handicap_men": 5,
+          "handicap_ladies": 6,
+          "yardage": {
+            "blue": 503,
+            "white": 471,
+            "gold": 437,
+            "red_long": 432,
+            "red_short": 368
+          },
+          "desc": "This dogleg par 5 is a great hole for the daring. Out of bounds on both sides of the fairway make the drive on this hole crucial. A long drive to the dogleg puts the aggressive golfer in a position to go over a small pond in two. Conservative players will want to make it a three-shot hole with a wedge to the green from the front of the pond.",
+          "img": "Lake-2.jpeg"
+        },
+        {
+          "hole": 3,
+          "par": 4,
+          "handicap_men": 4,
+          "handicap_ladies": 3,
+          "yardage": {
+            "blue": 328,
+            "white": 320,
+            "gold": 317,
+            "red_long": 312,
+            "red_short": 209
+          },
+          "desc": "This uphill par 4 is full of hidden challenges. Take one more club as you approach the elevated green. A tee shot right invites tree trouble on this dogleg right hole. Keep the approach below the pin on this severely sloping green.",
+          "img": "Lake-3.jpeg"
+        },
+        {
+          "hole": 4,
+          "par": 3,
+          "handicap_men": 8,
+          "handicap_ladies": 8,
+          "yardage": {
+            "blue": 178,
+            "white": 147,
+            "gold": 136,
+            "red_long": 131,
+            "red_short": 108
+          },
+          "desc": "A variety of winds on this hole makes club selection tricky at times. The green is guarded on both sides by bunkers.",
+          "img": "Lake-4.jpeg"
+        },
+        {
+          "hole": 5,
+          "par": 5,
+          "handicap_men": 7,
+          "handicap_ladies": 7,
+          "yardage": {
+            "blue": 501,
+            "white": 480,
+            "gold": 453,
+            "red_long": 448,
+            "red_short": 355
+          },
+          "desc": "This hole is a welcomed break as yardage is cut short by the drop in elevation. Reaching the green in two is possible as long as an errant drive doesn\u2019t bring the trees off the fairway into play. A small, bunkered green awaits a wedge for the more conservative hitter.",
+          "img": "Lake-5.jpeg"
+        },
+        {
+          "hole": 6,
+          "par": 4,
+          "handicap_men": 3,
+          "handicap_ladies": 5,
+          "yardage": {
+            "blue": 370,
+            "white": 360,
+            "gold": 319,
+            "red_long": 314,
+            "red_short": 262
+          },
+          "desc": "A good scoring hole provided your drive is in the fairway. Locusts, pines, and oaks greet over-confident drives. An elevated green guarded by bunkers awaits. Play one extra club if you see the trees swaying toward you.",
+          "img": "Lake-6.jpeg"
+        },
+        {
+          "hole": 7,
+          "par": 3,
+          "handicap_men": 6,
+          "handicap_ladies": 4,
+          "yardage": {
+            "blue": 320,
+            "white": 310,
+            "gold": 305,
+            "red_long": 300,
+            "red_short": 249
+          },
+          "desc": "A favorite challenge of the locals, this picturesque hole brings the familiar Lakeview pond into play. Daring hitters can cut the corner by going across the pond from the tee. An elevated small green can be attacked with a mid-iron for the conservative player or a wedge by the long, dry hitter.",
+          "img": "Lake-7.jpeg"
+        },
+        {
+          "hole": 8,
+          "par": 4,
+          "handicap_men": 9,
+          "handicap_ladies": 9,
+          "yardage": {
+            "blue": 176,
+            "white": 150,
+            "gold": 145,
+            "red_long": 140,
+            "red_short": 132
+          },
+          "desc": "Playing shorter than the yardage, this par 3 presents a tricky green that invites three putts.",
+          "img": "Lake-8.jpeg"
+        },
+        {
+          "hole": 9,
+          "par": 5,
+          "handicap_men": 1,
+          "handicap_ladies": 2,
+          "yardage": {
+            "blue": 490,
+            "white": 388,
+            "gold": 356,
+            "red_long": 351,
+            "red_short": 300
+          },
+          "desc": "The finishing hole on the Lake Nine is a formidable par 4 across a pond-guarded green. The tee shot will move left, so plan ahead. An uphill lie on the approach shot makes the pond seem even bigger. A safe iron can find the bunker at the back of the green.",
+          "img": "Lake-9.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Mountain",
+      "holes": [
+        {
+          "hole": 1,
+          "par": 4,
+          "handicap_men": 9,
+          "handicap_ladies": 9,
+          "yardage": {
+            "blue": 336,
+            "white": 322,
+            "gold": 286
+          },
+          "desc": "A gentle start to a challenging nine. A drive in the fairway leaves a relatively short approach to a long, hourglass shaped green.",
+          "img": "Mountain-1.jpeg"
+        },
+        {
+          "hole": 2,
+          "par": 4,
+          "handicap_men": 2,
+          "handicap_ladies": 2,
+          "yardage": {
+            "blue": 490,
+            "white": 465,
+            "gold": 417
+          },
+          "desc": "A tee shot left shortens the hole, but brings trouble closer. The approach is to a deep green where pin placement can make a two-club difference.",
+          "img": "Mountain-2.jpeg"
+        },
+        {
+          "hole": 3,
+          "par": 5,
+          "handicap_men": 3,
+          "handicap_ladies": 2,
+          "yardage": {
+            "blue": 561,
+            "white": 532,
+            "gold": 491
+          },
+          "desc": "The adventure begins on the second shot. Players must decide whether to lay up or challenge the hazards; wind may play a role in the decision to go for the green in two.",
+          "img": "Mountain-3.jpeg"
+        },
+        {
+          "hole": 4,
+          "par": 3,
+          "handicap_men": 7,
+          "handicap_ladies": 7,
+          "yardage": {
+            "blue": 203,
+            "white": 183,
+            "gold": 147
+          },
+          "desc": "A long, demanding par 3 from the back tees. Into-the-wind shots require extra club. The right side of the green is a safe zone.",
+          "img": "Mountain-4.jpeg"
+        },
+        {
+          "hole": 5,
+          "par": 4,
+          "handicap_men": 4,
+          "handicap_ladies": 1,
+          "yardage": {
+            "blue": 413,
+            "white": 385,
+            "gold": 356
+          },
+          "desc": "A fairway metal keeps the player dry off the tee. Approach from the left side opens the green; a miss to the right can find water. A strategic par 4.",
+          "img": "Mountain-5.jpeg"
+        },
+        {
+          "hole": 6,
+          "par": 5,
+          "handicap_men": 1,
+          "handicap_ladies": 5,
+          "yardage": {
+            "blue": 589,
+            "white": 539,
+            "gold": 527
+          },
+          "desc": "Your best angle on this long, uphill par 5 comes from the left. The elevated, contoured green can make up to a two-club difference on the approach.",
+          "img": "Mountain-6.jpeg"
+        },
+        {
+          "hole": 7,
+          "par": 4,
+          "handicap_men": 5,
+          "handicap_ladies": 6,
+          "yardage": {
+            "blue": 411,
+            "white": 396,
+            "gold": 355
+          },
+          "desc": "A unique par 4 with the nine\u2019s best vistas. Favor the proper side of the fairway to set up an accurate approach to a beautifully shaped green with subtle breaks.",
+          "img": "Mountain-7.jpeg"
+        },
+        {
+          "hole": 8,
+          "par": 3,
+          "handicap_men": 8,
+          "handicap_ladies": 8,
+          "yardage": {
+            "blue": 186,
+            "white": 158,
+            "gold": 144
+          },
+          "desc": "A lengthy par 3. Avoid the long-right miss that brings a difficult recovery from behind the green \u2014 pars are rare from there.",
+          "img": "Mountain-8.jpeg"
+        },
+        {
+          "hole": 9,
+          "par": 4,
+          "handicap_men": 6,
+          "handicap_ladies": 6,
+          "yardage": {
+            "blue": 390,
+            "white": 361,
+            "gold": 333
+          },
+          "desc": "Elevation change can make the second shot play shorter. Fairway tilt influences stance and lies, giving players something to ponder on club selection from the tee.",
+          "img": "Mountain-9.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Peak",
+      "holes": [
+        {
+          "hole": 1,
+          "par": 4,
+          "handicap_men": 4,
+          "handicap_ladies": 2,
+          "yardage": {
+            "blue": 393,
+            "white": 378,
+            "gold": 368
+          },
+          "desc": "A tee shot landing left of center keeps the ball in the short grass on this right sloping fairway. With a mid-iron to a large green, steer clear of the bunker at the right of the green.",
+          "img": "Peak-1.jpeg"
+        },
+        {
+          "hole": 2,
+          "par": 4,
+          "handicap_men": 7,
+          "handicap_ladies": 7,
+          "yardage": {
+            "blue": 332,
+            "white": 317,
+            "gold": 307
+          },
+          "desc": "Lined with trees down the left and a fairway bunker right that comes into play for the longer hitters, the hole rewards a straight drive with a good birdie chance on this short par 4.",
+          "img": "Peak-2.jpeg"
+        },
+        {
+          "hole": 3,
+          "par": 4,
+          "handicap_men": 5,
+          "handicap_ladies": 6,
+          "yardage": {
+            "blue": 366,
+            "white": 351,
+            "gold": 341
+          },
+          "desc": "The third of three straight tough driving holes, this beautifully tree lined downhill par 4 plays shorter than the yardage suggests.",
+          "img": "Peak-3.jpeg"
+        },
+        {
+          "hole": 4,
+          "par": 3,
+          "handicap_men": 8,
+          "handicap_ladies": 9,
+          "yardage": {
+            "blue": 183,
+            "white": 155,
+            "gold": 155
+          },
+          "desc": "It's a long par 3 from the back tees but a big elevation change makes it play much shorter. A ball hit just short of the large green will typically roll on, but avoid going beyond the putting surface as it slopes severely from back to front.",
+          "img": "Peak-4.jpeg"
+        },
+        {
+          "hole": 5,
+          "par": 5,
+          "handicap_men": 3,
+          "handicap_ladies": 5,
+          "yardage": {
+            "blue": 476,
+            "white": 461,
+            "gold": 368
+          },
+          "desc": "This is a tight, 3-shot par 5. After a drive down the middle, calculate your second shot carefully to avoid going through the dogleg at the top of the hill. To reach in two, a strong drive up the extreme left side of the fairway offers the best odds. The large green is relatively flat toward the back but sloping near the front.",
+          "img": "Peak-5.jpeg"
+        },
+        {
+          "hole": 6,
+          "par": 4,
+          "handicap_men": 1,
+          "handicap_ladies": 1,
+          "yardage": {
+            "blue": 386,
+            "white": 372,
+            "gold": 361
+          },
+          "desc": "From the tee, favor the right side of the fairway as it slopes significantly from right to left. A shot left goes from bad to worse as pines line the left side. A right-hander finds the ball above his feet on the second shot. This mid-length par 4\u2019s green is very deep and slopes from back to front.",
+          "img": "Peak-6.jpeg"
+        },
+        {
+          "hole": 7,
+          "par": 4,
+          "handicap_men": 9,
+          "handicap_ladies": 3,
+          "yardage": {
+            "blue": 453,
+            "white": 387,
+            "gold": 351
+          },
+          "desc": "This lengthy par 4 offers a wonderful assortment of challenges. The left side is the favorable zone for the tee shot. Awaiting the player will be a downhill lie (tea shot) that suggests a right to left shape to the green. Stay below the pin as the green tilts fairly significantly from back to front.",
+          "img": "Peak-7.jpeg"
+        },
+        {
+          "hole": 8,
+          "par": 3,
+          "handicap_men": 2,
+          "handicap_ladies": 8,
+          "yardage": {
+            "blue": 171,
+            "white": 150,
+            "gold": 144
+          },
+          "desc": "This downhill par 3 is a favorite among the locals and a welcome respite after a stretch of tighter driving holes. Right pin placements are more accessible as a mound guards the left side of the green and a bunker resides long left.",
+          "img": "Peak-8.jpeg"
+        },
+        {
+          "hole": 9,
+          "par": 5,
+          "handicap_men": 6,
+          "handicap_ladies": 4,
+          "yardage": {
+            "blue": 567,
+            "white": 552,
+            "gold": 482
+          },
+          "desc": "From the tee, the fairway asks for a slight fade but a strong draw can catch the downhill slope and buy some much desired roll. A strike down left side keeps the ball on a more level portion of the fairway. Play a controlled approach as out-of-bounds danger lurks long and right of the green.",
+          "img": "Peak-9.jpeg"
+        }
+      ]
+    }
+  ]
+}
