@@ -1,0 +1,117 @@
+{
+  "courses": [
+    {
+      "name": "Luray",
+      "holes": [
+        {
+          "hole": 1,
+          "par": 5,
+          "desc": "Opening par 5 playing gently down the hill, where a solid drive sets up a chance to advance near the green and start the round with a good look at birdie.",
+          "yardage": { "blue": 509, "white": 486, "gold": 436, "red": 426 }
+        },
+        {
+          "hole": 2,
+          "par": 4,
+          "desc": "A straightforward par 4 with room off the tee; favor the middle of the fairway to leave a comfortable mid-iron into a receptive green.",
+          "yardage": { "blue": 385, "white": 370, "gold": 329, "red": 322 }
+        },
+        {
+          "hole": 3,
+          "par": 4,
+          "desc": "A mid-length par 4 where placement matters more than distance; avoid getting out of position and you’ll have a simple approach into a fairly flat putting surface.",
+          "yardage": { "blue": 350, "white": 334, "gold": 328, "red": 311 }
+        },
+        {
+          "hole": 4,
+          "par": 3,
+          "desc": "The first par 3, modest in length but fully exposed to the breeze; commit to your yardage and aim for the center of the green.",
+          "yardage": { "blue": 155, "white": 150, "gold": 139, "red": 136 }
+        },
+        {
+          "hole": 5,
+          "par": 5,
+          "desc": "A strong par 5 that rewards two solid shots; long hitters can challenge in two while others lay up to their favorite wedge distance.",
+          "yardage": { "blue": 527, "white": 517, "gold": 485, "red": 346 }
+        },
+        {
+          "hole": 6,
+          "par": 4,
+          "desc": "A classic valley par 4 with a slightly narrower driving corridor; find the short grass and you’ll be rewarded with a straightforward approach.",
+          "yardage": { "blue": 376, "white": 366, "gold": 331, "red": 326 }
+        },
+        {
+          "hole": 7,
+          "par": 3,
+          "desc": "A short par 3 that offers a great birdie opportunity if you control your distance; missing long brings a tougher chip back up the slope.",
+          "yardage": { "blue": 152, "white": 148, "gold": 143, "red": 140 }
+        },
+        {
+          "hole": 8,
+          "par": 4,
+          "desc": "A scoring par 4 where a good tee shot leaves only a short iron or wedge; stay patient and aim for the fat side of the green when pins are tucked.",
+          "yardage": { "blue": 380, "white": 370, "gold": 329, "red": 324 }
+        },
+        {
+          "hole": 9,
+          "par": 4,
+          "desc": "A solid finishing par 4 for the outward nine, slightly uphill into the green; take enough club on your approach and trust your line.",
+          "yardage": { "blue": 372, "white": 362, "gold": 324, "red": 319 }
+        },
+        {
+          "hole": 10,
+          "par": 4,
+          "desc": "The back nine opens with a straightforward par 4; favor the right half of the fairway for the best angle into the green.",
+          "yardage": { "blue": 382, "white": 372, "gold": 321, "red": 316 }
+        },
+        {
+          "hole": 11,
+          "par": 4,
+          "desc": "Another par 4 that rewards a confident drive; subtle slopes around the green can funnel approaches, so land it on the correct tier.",
+          "yardage": { "blue": 373, "white": 368, "gold": 322, "red": 314 }
+        },
+        {
+          "hole": 12,
+          "par": 3,
+          "desc": "A mid-length par 3 where club selection is everything; swirling winds off the valley can make it play longer or shorter than the number.",
+          "yardage": { "blue": 169, "white": 161, "gold": 152, "red": 150 }
+        },
+        {
+          "hole": 13,
+          "par": 5,
+          "desc": "A par 5 that tempts you to attack but punishes wayward shots; smart players pick a target, find the fairway, and choose their layup or go-for-it line carefully.",
+          "yardage": { "blue": 523, "white": 509, "gold": 457, "red": 447 }
+        },
+        {
+          "hole": 14,
+          "par": 4,
+          "desc": "A medium par 4 framed by hillsides; positioning your tee ball is key to avoiding awkward lies into this sloping green.",
+          "yardage": { "blue": 353, "white": 343, "gold": 310, "red": 303 }
+        },
+        {
+          "hole": 15,
+          "par": 3,
+          "desc": "A shorter par 3 where accuracy is more important than power; aim for the middle and take your two-putt par when the pin is on the edges.",
+          "yardage": { "blue": 150, "white": 140, "gold": 137, "red": 127 }
+        },
+        {
+          "hole": 16,
+          "par": 5,
+          "desc": "One of the tougher par 5s coming home, with length and elevation changes; play it as a true three-shot hole unless everything is working.",
+          "yardage": { "blue": 551, "white": 541, "gold": 463, "red": 422 }
+        },
+        {
+          "hole": 17,
+          "par": 4,
+          "desc": "A demanding par 4 late in the round, where a precise drive sets up a mid-to-long approach; par here always feels like a win.",
+          "yardage": { "blue": 385, "white": 370, "gold": 289, "red": 285 }
+        },
+        {
+          "hole": 18,
+          "par": 4,
+          "desc": "A memorable closing par 4 back toward the clubhouse; commit to your target off the tee, then enjoy one last full swing into a green framed by mountain views.",
+          "yardage": { "blue": 407, "white": 397, "gold": 355, "red": 252 }
+        }
+      ]
+    }
+  ]
+}
